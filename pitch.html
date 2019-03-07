@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pitch Form</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <fieldset>
+      <input type="text" name="name1" placeholder="Name 1" autocomplete="name">
+      <input type="text" name="name2" placeholder="Name 2" autocomplete="name">
+    </fieldset>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#thirdPerson">Third Person</button>
+    <fieldset class="collapse" id="thirdPerson">
+      <input type="text" name="name3" placeholder="Name 3" autocomplete="name">
+      <input type="text" name="initial" placeholder="Instructor Initials">
+    </fieldset>
+    <fieldset>
+      <div class="input-group">
+        <div class="input-group-prepend">
+         <div class="input-group-text">
+           <input type="radio" name="appOrTeam" aria-label="Select App Name">
+         </div>
+       </div>
+        <input type="text" class="form-control" name="appName" placeholder="App Name">
+      </div>
+
+      <div class="input-group">
+        <div class="input-group-prepend">
+         <div class="input-group-text">
+           <input type="radio" name="appOrTeam" aria-label="Select Team Name">
+         </div>
+       </div>
+        <input type="text" class="form-control" name="teamName" placeholder="Team Name">
+      </div>
+    </fieldset>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
