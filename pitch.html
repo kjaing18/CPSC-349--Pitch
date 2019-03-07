@@ -7,35 +7,43 @@
 
   </head>
   <body>
-    <fieldset>
-      <input type="text" name="name1" placeholder="Name 1" autocomplete="name">
-      <input type="text" name="name2" placeholder="Name 2" autocomplete="name">
-    </fieldset>
-    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#thirdPerson">Third Person</button>
-    <fieldset class="collapse" id="thirdPerson">
-      <input type="text" name="name3" placeholder="Name 3" autocomplete="name">
-      <input type="text" name="initial" placeholder="Instructor Initials">
-    </fieldset>
-    <fieldset>
-      <div class="input-group">
-        <div class="input-group-prepend">
-         <div class="input-group-text">
-           <input type="radio" name="appOrTeam" aria-label="Select App Name">
+    <div class="container">
+      <fieldset class="row">
+        <label for="name1">Name 1</label>
+        <input type="text" class="form-control col-md-6 col-12" name="name1" placeholder="Name 1" autocomplete="name"><br>
+        <label for="name2">Name 2</label>
+        <input type="text" class="form-control col-md-6 col-12" name="name2" placeholder="Name 2" autocomplete="name">
+      </fieldset>
+      <br>
+      <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#thirdPerson">Third Person</button>
+      <br>
+      <fieldset class="collapse row" id="thirdPerson">
+        <label for="name3">Name 3</label>
+        <input type="text" class="form-control col-md-6 col-12" name="name3" placeholder="Name 3" autocomplete="name"><br>
+        <label for="initial">Instructor Initials</label>
+        <input type="text" class="form-control col-md-6 col-12" name="initial" placeholder="Instructor Initials">
+      </fieldset>
+      <br>
+      <fieldset class="row">
+        <div class="input-group">
+          <div class="input-group-prepend">
+           <div class="input-group-text">
+             <input type="radio" name="appOrTeam" aria-label="Select App Name">
+           </div>
          </div>
-       </div>
-        <input type="text" class="form-control" name="appName" placeholder="App Name">
-      </div>
+          <input type="text" class="form-control col-md-6 col-12" name="appName" placeholder="App Name">
+        </div>
 
-      <div class="input-group">
-        <div class="input-group-prepend">
-         <div class="input-group-text">
-           <input type="radio" name="appOrTeam" aria-label="Select Team Name">
+        <div class="input-group">
+          <div class="input-group-prepend">
+           <div class="input-group-text">
+             <input type="radio" name="appOrTeam" aria-label="Select Team Name">
+           </div>
          </div>
-       </div>
-        <input type="text" class="form-control" name="teamName" placeholder="Team Name">
-      </div>
-    </fieldset>
-
+          <input type="text" class="form-control col-md-6 col-12" name="teamName" placeholder="Team Name">
+        </div>
+      </fieldset>
+  </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
